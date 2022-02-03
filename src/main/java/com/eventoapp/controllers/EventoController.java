@@ -37,7 +37,7 @@ public class EventoController {
 			return "redirect:/cadastrarEvento";
 		}
 		er.save(evento);
-		attributes.addFlashAttribute("mensagem", "Convidado adicionado com sucesso!");
+		attributes.addFlashAttribute("mensagem", "Evento adicionado com sucesso!");
 		return "redirect:/cadastrarEvento";
 	}
 
